@@ -5,8 +5,9 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Solving mega menu chalange
+        link(href="style.css", rel="stylesheet")
     body
-        ul
+        ul.mega_menu
             each menu in data.menu
                 li
                     a(href=`/${menu.id}`)=menu.label
