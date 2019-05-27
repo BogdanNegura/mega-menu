@@ -47,3 +47,44 @@
 .mega_menu__top-item:hover  .mega_menu__drop-down {
     display: block;
 }
+
+.mega_menu__drop2 {
+    padding: 0.5rem 1rem;
+    // display: inline-block;
+    width: 220px;
+
+    &:hover {
+        background-color: #003366;
+        color: white;
+    }
+}
+
+.mega_menu__drop-down2 {
+    //  a bunch o properties
+    display: none;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    right: 0;
+    height: 400px;
+    background-color: lightskyblue;
+}
+
+.mega_menu__drop2:hover .mega_menu__drop-down2 {
+    display: block;
+}
+
+.bold-link {
+    color: green;
+    font-weight: bold;
+}
+.list {
+    display: flex;
+}
+
+.last-li a {
+    padding: 0.6rem 0.4rem;
+    text-decoration: none;
+    display: block;
+
+}
